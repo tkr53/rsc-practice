@@ -1,0 +1,1 @@
+ALTER TABLE `board_table` ADD `created_at` text NOT NULL;
