@@ -6,7 +6,8 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "check": "biome lint --write"
+    "check": "biome lint --write",
+    "migrate": "drizzle-kit migrate"
   },
   "dependencies": {
     "@libsql/client": "^0.14.0",
